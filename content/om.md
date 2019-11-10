@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,16 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Jag ser fram emot designkursen och att lära mig mer om CSS.
 
-Skriv några kloka ord om kursen?
+Här finns GitHub repot för denna sidan: [Charlottes repo](https://github.com/ChalleStr/chsr19-design)
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Här finns kursens GitHub-repo: [Kursens repo]()
+[FIGURE src=img/schaferbild.jpg?w=300 caption="Liten och stor"]

@@ -1,3 +1,3 @@
 #### Kursrepo
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+[Här](https://dbwebb.se/kurser/design-v2) finns kursens webbplats och [här](https://github.com/dbwebb-se/design) hittar man kursrepot på GitHub.

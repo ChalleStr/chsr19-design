@@ -1,25 +1,22 @@
 ---
-title: "Min fina titel"
+title: "Charlottes me-sida"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="img/jagochprinsen.jpg?w=500" class="right" caption="Bild på mig och hästen Prinsen"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Jag heter Charlotte Strand och bor strax söder om Varberg i lilla byn Sibbarp. Jag är född och uppvuxen utanför Luleå och hamnade här, via några år i Stockholm, 2009. Just nu är jag föräldraledig med mitt tredje barn och pluggar samtidigt. Det lämnar inte särskilt mycket tid över för fritidsintressen men i "vanliga" fall är jag en hästtjej som haft egen häst sen tonåren. Hästen är utlånad tills vidare och jag är glad att mitt andra stora intresse, musik, kan pågå som bakgrund i vardagscirkusen.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag gick naturvetenskapliga programmet på gymnasiet och har alltid varit intresserad av datorer men har nog aldrig tänkt att jag skulle jobba med det. Det tog ett tag innan jag kom fram till vad jag ville göra och eftersom jag tycker att programmering är fantastiskt kul, hoppas jag att jag hittat rätt.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Charlotte
