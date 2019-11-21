@@ -1,0 +1,99 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+
+/* Hide submenu, leave this to kmom02 */
+//.rm-desktop ul {
+//    display: none;
+//}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+//.rm-navbar-max {
+//    display: none;
+//}
+
+.author-byline {
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: thin;
+    border-color: #000;
+    border-style: solid;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.author-byline img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    padding-right: 5px;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text {
+    font-size: xx-large;
+}
+
+/**
+*Main, and sidebars layout
+*/
+.inner-wrap-main {
+    //.clearfix();
+    overflow: auto;
+}
+
+.region-flash {
+    display: flex;
+    justify-content: center;
+}
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    overflow: auto;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+
+.footer-column {
+    width: 33%;
+    float: left;
+}

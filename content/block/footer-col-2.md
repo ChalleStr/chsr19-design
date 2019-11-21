@@ -1,3 +1,1 @@
-#### Footer col 2
-
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+####"Doubt kills more dreams than failure ever will.".

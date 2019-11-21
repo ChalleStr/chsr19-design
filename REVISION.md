@@ -1,6 +1,13 @@
 Revision history
 =========================
 
+
+v2.0.0 (2019-11-21)
+-----------------------
+
+Update with less stylesheets and new deafult style. 
+
+
 v1.0.1 (2019-11-11)
 ---------------------
 
