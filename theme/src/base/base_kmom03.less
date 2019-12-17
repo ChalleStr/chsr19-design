@@ -1,0 +1,71 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+ //Defaultvärden. Skrivs över av kmom03.less.
+@bgColorHtml: #a88231;
+@bgColorBody: #f5f2ed;
+@colorBody: #000;
+//@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+img {
+    max-width: 100%;
+}
+
+//Style submenu links
+
+.breadcrumb-list li {
+    list-style-type: none;
+}
+.region-breadcrumb li a {
+    text-decoration: none;
+}
+
+
+//Sets color on drop-down submenu.
+.rm-desktop ul {
+    background-color: #a88231;
+}
+
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.wrap-all {
+    //max-width: 1100px;
+    //margin: 0 auto;
+    background-color: #f5f2ed;
+    //font-family: sans-serif;
+}
+
+//Styling sidebar left on redovisning
+.toc {
+    list-style-type: none;
+    //text-decoration: none;
+}
+
+.toc a {
+    text-decoration: none;
+}
+
+.next-previous a {
+    text-decoration: none;
+}

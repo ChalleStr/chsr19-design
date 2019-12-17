@@ -1,6 +1,11 @@
 Revision history
 =========================
 
+v3.0.0 (2019-12-17)
+
+* Updated with grids, fonts and style.
+* Done with kmom03
+
 v2.0.2 (2019-11-21)
 
 * REVISION updated.
