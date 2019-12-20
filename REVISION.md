@@ -1,6 +1,12 @@
 Revision history
 =========================
 
+v4.0.0 (2019-12-20)
+
+* Updated with three new styles according to kmom04.
+* New subpage, "Rapport", added.
+* Done with kmom04.
+
 v3.0.0 (2019-12-17)
 
 * Updated with grids, fonts and style.

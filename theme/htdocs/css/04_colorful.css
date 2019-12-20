@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04, colorful theme.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
 */
 /**
 * Import clearfix.
@@ -5026,14 +5026,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #a88231;
+  background-color: #BD81BA;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #000;
-  background-color: #f5f2ed;
-  font: 16px/1.375 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #487036;
+  background-color: #93BD80;
+  font: 18px/1.22222222 "Roboto Condensed", sans-serif;
 }
 h1,
 h2,
@@ -5041,7 +5041,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Pacifico", cursive;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -5055,9 +5055,9 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.15789474;
+  line-height: 1.02923977;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #487036;
   margin-bottom: 21px;
 }
 h1 ~ h1,
@@ -5073,7 +5073,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.46666667;
+  line-height: 1.3037037;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
@@ -5083,7 +5083,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -5093,17 +5093,17 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.83333333;
+  line-height: 1.62962963;
   font-weight: normal;
   margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #487036;
 }
 h4 + h5 {
   margin-top: 22px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5112,7 +5112,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5262,7 +5262,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   text-align: left;
   font-style: italic;
 }
@@ -5329,14 +5329,14 @@ img {
   text-decoration: none;
 }
 .rm-desktop ul {
-  background-color: #a88231;
+  background-color: #BD81BA;
 }
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
 }
 .wrap-all {
-  background-color: #f5f2ed;
+  background-color: #93BD80;
 }
 .toc {
   list-style-type: none;
@@ -5764,3 +5764,72 @@ html {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v11/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMQg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7CA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Solway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v1/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
+}
+.outer-wrap-header {
+  background-color: #BD81BA;
+}
+.site-logo-text a {
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+.site-logo-text a:visited {
+  font-family: "Pacifico", cursive;
+  color: #487036;
+}
+.site-logo-text a:hover {
+  color: #487036;
+}
+.outer-wrap-footer {
+  background-color: #BD81BA;
+}
+.outer-wrap.outer-wrap-main .row {
+  background-color: #93BD80;
+}
+a {
+  color: #487036;
+}
+a:visited {
+  color: #70416E;
+  text-decoration: none;
+}
+a:hover {
+  color: #BD81BA;
+}
+.author-byline {
+  background-color: inherit;
+  border-color: #487036;
+}
