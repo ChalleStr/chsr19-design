@@ -1,6 +1,12 @@
 Revision history
 =========================
 
+v5.0.0 (2019-01-14)
+
+* Updated according to kmom05.
+* New subpage, "Blogg", added.
+* Done with kmom05.
+
 v4.0.0 (2019-12-20)
 
 * Updated with three new styles according to kmom04.

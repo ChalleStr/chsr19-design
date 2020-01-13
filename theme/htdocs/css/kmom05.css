@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom04 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
 */
 /**
 * Import clearfix.
@@ -5026,14 +5026,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #a88231;
+  background-color: #092C42;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #000;
-  background-color: #f5f2ed;
-  font: 16px/1.375 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #86B0C2;
+  background-color: #0E4669;
+  font: 18px/1.22222222 "Open Sans Condensed", sans-serif;
 }
 h1,
 h2,
@@ -5041,7 +5041,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Solway", serif;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -5055,9 +5055,9 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.15789474;
+  line-height: 1.02923977;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #86B0C2;
   margin-bottom: 21px;
 }
 h1 ~ h1,
@@ -5073,7 +5073,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.46666667;
+  line-height: 1.3037037;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #CCC;
@@ -5083,7 +5083,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   font-weight: normal;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
@@ -5093,17 +5093,17 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.83333333;
+  line-height: 1.62962963;
   font-weight: normal;
   margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #86B0C2;
 }
 h4 + h5 {
   margin-top: 22px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5112,7 +5112,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.1;
+  line-height: 1.95555556;
   margin-bottom: 21px;
   border-bottom: 1px solid #EEE;
 }
@@ -5262,7 +5262,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.57142857;
+  line-height: 1.3968254;
   text-align: left;
   font-style: italic;
 }
@@ -5319,7 +5319,10 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
-img {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 .breadcrumb-list li {
@@ -5329,14 +5332,14 @@ img {
   text-decoration: none;
 }
 .rm-desktop ul {
-  background-color: #a88231;
+  background-color: #092C42;
 }
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
 }
 .wrap-all {
-  background-color: #f5f2ed;
+  background-color: #0E4669;
 }
 .toc {
   list-style-type: none;
@@ -5762,5 +5765,205 @@ html {
   color: #111;
 }
 /**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 22px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 11px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 788px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 787.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 563px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 562.5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 300px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 300px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+/**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v11/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMQg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v16/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7CA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Solway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v1/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
+}
+@media screen and (max-width: 700px) {
+  .site-logo,
+  .site-logo-text a {
+    display: none;
+  }
+}
+.outer-wrap-header {
+  background-color: #092C42;
+}
+.site-logo-text a {
+  font-family: "Solway", serif;
+  text-decoration: none;
+}
+.site-logo-text a:visited {
+  font-family: "Solway", serif;
+  color: #86B0C2;
+}
+.site-logo-text a:hover {
+  color: #86B0C2;
+}
+.outer-wrap-footer {
+  background-color: #092C42;
+}
+.outer-wrap.outer-wrap-main .row {
+  background-color: #0E4669;
+}
+a {
+  color: #86B0C2;
+}
+a:visited {
+  color: #B2B4B8;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.author-byline {
+  background-color: inherit;
+  border-color: #86B0C2;
+}
